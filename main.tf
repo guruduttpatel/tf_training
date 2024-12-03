@@ -10,6 +10,6 @@ terraform {
   }
 }
 resource "aws_s3_bucket" "example" {
-bucket = "jenkins-test-bucket-gp02"
+bucket = "jenkins-test-bucket-gp03"
 acl    = "private"
 }
